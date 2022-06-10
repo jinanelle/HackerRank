@@ -4,7 +4,7 @@
 #n = int(input())
 arr = map(int, input().split())
     
-# to remove duplicated from list 
+# remove duplicated from list 
 arr = list(set(arr)) 
 
 print(sorted(arr)[-2])
