@@ -16,8 +16,15 @@
 # Output Format
 # Print Weird if the number is weird; otherwise, print Not Weird.
 
-# 3  => Weird
-# 24 => Not Weird
+# Sample Input
+# 3
+# Sample Output
+# Weird
+
+# Sample Input
+# 24
+# Sample Output
+# Not Weird
 
 n = int(input().strip())
 if n % 2 != 0 or 6 <= n <= 20:
